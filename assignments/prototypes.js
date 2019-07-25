@@ -220,7 +220,7 @@ let heroMove = attackOrHeal.bind(myHero, myVillain);
 
 function startBattle(character1, character2) {
     let turns = 0;
-    while (character1.healthPoints > 0 || character2.healthPoints > 0) {
+    while (character1.healthPoints > 0 && character2.healthPoints > 0) {
         villainMove();
         heroMove();
         turns++;
