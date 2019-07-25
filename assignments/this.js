@@ -1,10 +1,10 @@
 /* The for principles of "this";
  * in your own words. explain the four principle for the "this" keyword below.
  *
- * 1.
- * 2. Whatever is to the left of the dot is the `this` it is referring to
- * 3.
- * 4.
+ * 1. Window Binding is the default binding for this in the global scope. "This" will always default to the window
+ * 2. Implicit Binding is the "whatever is left of the dot" principle, where "This" is associated with the object that called it
+ * 3. Explicit Binding is when you use .call(), .apply(), or .bind() and explicity define what "this" refers to
+ * 4. New Binding is when you declare a new binding and the object that was created from the NEW statement is bound to "this"
  *
  * write out a code example of each explanation above
  */
